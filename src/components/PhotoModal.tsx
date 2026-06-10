@@ -158,8 +158,8 @@ const PhotoModal = ({
             relative
             h-75
             sm:h-100
-            md:h-auto
             md:flex-1
+            md:min-h-150
           "
         >
           {!isImageLoaded && (
